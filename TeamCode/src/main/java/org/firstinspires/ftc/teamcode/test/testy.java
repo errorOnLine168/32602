@@ -1,7 +1,7 @@
 package org.firstinspires.ftc.teamcode.test;
 
 public class testy {
-    public void test123(){
-
+    public static void test123(){
+    System.out.println("NIGGA");
     }
 }
