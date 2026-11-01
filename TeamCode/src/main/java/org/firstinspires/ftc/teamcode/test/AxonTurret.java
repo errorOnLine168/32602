@@ -17,7 +17,7 @@ public final class AxonTurret {
     // Provisional direction: verify on the assembled turret and flip if reversed.
     public static double ENCODER_TO_TURRET_SIGN = -1;
     // Flip this if positive power makes measured turret angle DECREASE.
-    public static double POWER_SIGN = 1;
+    public static double POWER_SIGN = -1;
 
     // MINI MK2 starter gains only; tune on the assembled mechanism.
     // Units are power per degree, second, etc.
