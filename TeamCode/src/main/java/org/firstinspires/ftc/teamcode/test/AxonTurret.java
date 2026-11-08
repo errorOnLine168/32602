@@ -22,7 +22,7 @@ public final class AxonTurret {
     // MINI MK2 starter gains only; tune on the assembled mechanism.
     // Units are power per degree, second, etc.
     public double kP = 0.01, kI = 0.0, kD = 0.0;
-    public double maxPower = 0.20;
+    public double maxPower = 0.50;
     public double toleranceDegrees = 1.0;
     // Provisional cable-safe limits relative to the manually established zero.
     public double minDegrees = -180, maxDegrees = 180;
