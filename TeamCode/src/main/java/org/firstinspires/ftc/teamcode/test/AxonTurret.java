@@ -9,7 +9,7 @@ import com.qualcomm.robotcore.util.Range;
 public final class AxonTurret {
     // goBILDA 3208-0004-0001 with its included 64T drive gear.
     // Assumes the servo directly drives that gear without an extra gear stage.
-    public static final double RATIO = 2.75; // servo turns per turret turn
+    public static final double RATIO = 2.20; // servo turns per turret turn
 
     // Provisional calibration: verify the feedback voltage span on your hardware.
     public static double FEEDBACK_MIN_VOLTS = 0.0;
